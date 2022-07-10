@@ -1,0 +1,56 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.background {
+    background: url("src/img.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.background:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.174);
+}
+
+/* .content {
+    border-radius: 10px;
+    position: absolute;
+    z-index: 999;
+    padding: 60px 32px;
+    width: 370px;
+    
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px 0 rgba(26, 26, 26, 0.203);
+} */
+
+.login {
+    height: 100vh;
+    width: 30vw;
+    background: rgba(255, 255, 255, 0.133);
+    z-index: 999;
+    padding: 60px 32px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border-radius: 10px; */
+    border: 1px solid gray;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px 0 rgba(26, 26, 26, 0.133);
+}
+
+.login-card {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+}

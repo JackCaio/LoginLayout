@@ -1,0 +1,2 @@
+# Sobre
+Repositório criado para manter e salvar testes com CSS feitos no tempo livre, em geral em cima de telas de login, por terem mais abertura para adição de elementos estéticos e possivelmente poluitivos visualmente em relatórios ou telas com mais informações.
